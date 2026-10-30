@@ -2,14 +2,12 @@
 
 End-to-end batch pipeline on **35M+ rows** of food-delivery data: **S3 → Snowflake → dbt → Airflow → LLM enrichment → RAG chat**.
 
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?logo=snowflake&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?logo=dbt&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?logo=apacheairflow&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?logo=amazons3&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
-
-![Airflow DAG](docs/images/airflow-dag.png)
+![Snowflake](/Users/syedalihussain/Documents/vector-search-at-scale/docs/images/Screenshot 2026-10-28 at 8.52.02 PM.png)
+![dbt](/Users/syedalihussain/Documents/vector-search-at-scale/docs/images/Screenshot 2026-10-28 at 8.59.49 PM.png)
+![Airflow DAG](/Users/syedalihussain/Documents/vector-search-at-scale/docs/images/Screenshot 2026-10-28 at 8.36.36 PM.png)
+![Docker](/Users/syedalihussain/Documents/vector-search-at-scale/docs/images/Screenshot 2026-10-28 at 9.00.56 PM.png)
+![AWS S3](docs/images/Screenshot 2026-10-28 at 8.46.32 PM.png)
+![Airflow DAG](/Users/syedalihussain/Documents/vector-search-at-scale/docs/images/Screenshot 2026-10-28 at 8.59.31 PM.png)
 
 ## Architecture
 
