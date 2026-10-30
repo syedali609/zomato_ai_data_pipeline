@@ -2,12 +2,25 @@
 
 End-to-end batch pipeline on **35M+ rows** of food-delivery data: **S3 → Snowflake → dbt → Airflow → LLM enrichment → RAG chat**.
 
-![Snowflake](docs/images/Screenshot 2026-10-28 at 8.52.02 PM.png)
-![dbt](docs/images/Screenshot 2026-10-28 at 8.59.49 PM.png)
-![Airflow DAG](docs/images/Screenshot 2026-10-28 at 8.36.36 PM.png)
-![Docker](docs/images/Screenshot 2026-10-28 at 9.00.56 PM.png)
-![AWS S3](docs/images/Screenshot 2026-10-28 at 8.46.32 PM.png)
-![Airflow DAG](docs/images/Screenshot 2026-10-28 at 8.59.31 PM.png)
+## Project Screenshots
+
+### Snowflake
+![Snowflake](docs/images/snowflake.png)
+
+### dbt
+![dbt](docs/images/dbt-tests.png)
+
+### Airflow DAG
+![Airflow DAG](docs/images/airflow-dag.png)
+
+### Docker
+![Docker](docs/images/docker.png)
+
+### AWS S3
+![AWS S3](docs/images/aws-s3.png)
+
+### Airflow Execution
+![Airflow Execution](docs/images/airflow-execution.png)
 
 ## Architecture
 
