@@ -2,12 +2,12 @@
 
 End-to-end batch pipeline on **35M+ rows** of food-delivery data: **S3 → Snowflake → dbt → Airflow → LLM enrichment → RAG chat**.
 
-![Snowflake](/Users/syedalihussain/Documents/vector-search-at-scale/docs/images/Screenshot 2026-10-28 at 8.52.02 PM.png)
-![dbt](/Users/syedalihussain/Documents/vector-search-at-scale/docs/images/Screenshot 2026-10-28 at 8.59.49 PM.png)
-![Airflow DAG](/Users/syedalihussain/Documents/vector-search-at-scale/docs/images/Screenshot 2026-10-28 at 8.36.36 PM.png)
-![Docker](/Users/syedalihussain/Documents/vector-search-at-scale/docs/images/Screenshot 2026-10-28 at 9.00.56 PM.png)
+![Snowflake](docs/images/Screenshot 2026-10-28 at 8.52.02 PM.png)
+![dbt](docs/images/Screenshot 2026-10-28 at 8.59.49 PM.png)
+![Airflow DAG](docs/images/Screenshot 2026-10-28 at 8.36.36 PM.png)
+![Docker](docs/images/Screenshot 2026-10-28 at 9.00.56 PM.png)
 ![AWS S3](docs/images/Screenshot 2026-10-28 at 8.46.32 PM.png)
-![Airflow DAG](/Users/syedalihussain/Documents/vector-search-at-scale/docs/images/Screenshot 2026-10-28 at 8.59.31 PM.png)
+![Airflow DAG](docs/images/Screenshot 2026-10-28 at 8.59.31 PM.png)
 
 ## Architecture
 
@@ -33,9 +33,9 @@ Airflow runs it daily: `reload_raw → dbt_build_core → enrich_reviews → dbt
 - **AI isolated from core:** AI models carry `tag:ai`, so the core pipeline runs even if enrichment is down
 - **No secrets in the repo:** credentials come from `.env`, dbt `env_var()` and Compose variables
 
-| Snowflake | S3 source |
+<!-- | Snowflake | S3 source |
 |---|---|
-| ![Snowflake](docs/images/snowflake.png) | ![S3](docs/images/s3-raw.png) |
+| ![Snowflake](docs/images/snowflake.png) | ![S3](docs/images/s3-raw.png) | -->
 
 ## Structure
 
